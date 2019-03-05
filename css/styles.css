@@ -9,9 +9,9 @@ div {
   min-width: 10vw;
 }
 
-ol#main {
+ul#main {
   list-style: none;
-  padding: 0;
+  padding: 10px;
   margin-bottom: 10%;
   font-size: 2em;
   display: flex;
@@ -19,7 +19,7 @@ ol#main {
   justify-content: space-evenly;
 }
 
-ol#products {
+ul#products {
   list-style: none;
   hide;
 }
