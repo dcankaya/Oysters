@@ -129,8 +129,14 @@ div.mailinglist .input-group {
 }
 
 .allproductsbody {
-  margin-left: 50vh 10vw;
+  margin-left: 50vh 50vw;
   font-size: 2;
-  width: 40%;
+  width: 70%;
 
+}
+
+.scrolldown {
+  margin-left: 100vh 100vw;
+  font-size: 2;
+  width: 50%;
 }
