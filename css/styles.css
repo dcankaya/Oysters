@@ -131,5 +131,6 @@ div.mailinglist .input-group {
 .allproductsbody {
   margin-left: 10vh 10vw;
   font-size: 2;
-  width: 40%
+  width: 40%;
+  color: rgba(255, 0, 0, 0.5);
 }
