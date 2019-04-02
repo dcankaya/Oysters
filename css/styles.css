@@ -6,7 +6,7 @@
     font-style: normal;
 }
 
-ul {"allproductsbody"
+ul {
   list-style: none;
   margin: 10px
 }
@@ -26,6 +26,7 @@ ul {"allproductsbody"
   font-family: "anaktoriaregular";
   font-size: 40px;
 }
+
 
 .navbar-brand a{
   color: red;
@@ -125,4 +126,10 @@ div.mailinglist {
 
 div.mailinglist .input-group {
   width: 700px;
+}
+
+.allproductsbody {
+  margin-left: 10vh 10vw;
+  font-size: 2;
+  width: 40%
 }
