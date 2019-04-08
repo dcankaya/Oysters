@@ -181,3 +181,9 @@ background-attachment: fixed;
   padding-top: 0;
 
 }
+
+
+.pictures {
+  background: url(https://blog.carousell.com/wp-content/uploads/2017/03/emma-watson-green-carpet-sustainable-fashion-1.jpg) top right,
+  url(https://blog.carousell.com/wp-content/uploads/2017/03/michelle-obama-green-carpet-sustainable-fashion-1.jpg) bottom left;
+}
