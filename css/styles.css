@@ -112,13 +112,20 @@ div.mailinglist {
   margin-top: auto;
   align-self: flex-end;
   justify-content: center;
+  bottom: auto;
+  position: absolute;
+  bottom: 10px;
+  width: 100%
 }
 
 div.mailinglist .input-group {
   width: 700px;
   padding-top: 20px;
   padding-bottom: 20px;
+
 }
+
+
 
 .allproductsbody {
   text-align: center;
