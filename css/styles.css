@@ -11,6 +11,7 @@ ul {
   margin: 10px
 }
 
+/* navbar */
 .navbar {
   background-color: #92cccc;
   padding-left: 50px;
@@ -26,7 +27,6 @@ ul {
   font-family: "anaktoriaregular";
   font-size: 40px;
 }
-
 
 .navbar-brand a{
   color: red;
@@ -70,6 +70,7 @@ ul {
   width: 24.2px;
 }
 
+/* index content */
 body {
   color: rgb(65, 75, 86);
   font-family: arial;
@@ -125,8 +126,7 @@ div.mailinglist .input-group {
 
 }
 
-
-
+/* allproducts content */
 .allproductsbody {
   text-align: center;
   width: 90%
@@ -142,6 +142,8 @@ text-align: center;
 .about-link
 background-attachment: fixed;
 
+
+/* calculations content */
 .tipsandtricksbody {
   text-align: center;
   text-decoration-color: red;
@@ -177,11 +179,13 @@ background-attachment: fixed;
   padding-top: 0;
 }
 
+/* greencarpet content */
 .pictures {
   background: url(https://blog.carousell.com/wp-content/uploads/2017/03/emma-watson-green-carpet-sustainable-fashion-1.jpg) top right,
   url(https://blog.carousell.com/wp-content/uploads/2017/03/michelle-obama-green-carpet-sustainable-fashion-1.jpg) bottom left;
 }
 
+/* about content */
 .icon {
   display: inline-block;
   padding: 0;
@@ -189,12 +193,19 @@ background-attachment: fixed;
 
 .about-link {
   display: inline-block;
-  justify-content: center;
+  padding: 20px;
 }
 
-.aboutcard {
+.aboutlink {
   display: flex;
   justify-content: center;
+  align-items: baseline;
+}
+
+.card-text {
+    display: flex;
+    justify-content: center;
+    width: 400px;
 }
 
 .name {
