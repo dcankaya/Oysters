@@ -15,11 +15,6 @@ html,body
     overflow-x: hidden;
 }
 
-ul {
-  list-style: none;
-  margin: 10px
-}
-
 /* navbar */
 .navbar {
   background-color: #92cccc;
@@ -80,24 +75,14 @@ ul {
 }
 
 /* index content */
-body {
+.index {
   color: rgb(65, 75, 86);
   font-family: arial;
   margin: 0px;
-}
-
-h1, h2, h3, .index {
   text-align: center;
 }
 
-img {
-  display: flex;
-  padding: 20px;
-  margin: 0 auto;
-  border-radius: 130px;
-}
-
-p .index {
+p.index {
   width: 40%;
   margin: 10vh 10vw;
   font-size: 2em;
@@ -148,19 +133,32 @@ text-align: center;
   width: 78%;
 }
 
-.about-link
-background-attachment: fixed;
-
-
 /* calculations content */
-.tipsandtricksbody {
-  text-align: center;
-  text-decoration-color: red;
-  font-size: 50;
+.calc2 {
+  width: auto;
+  height: auto;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  padding-left: 5%;
+  padding-right: 16%;
+}
+
+.calculationsquestion {
+  font-family: "anaktoriaregular";
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.calculationsbody {
+  text-align: left;
+  font-size: 25px;
   padding-bottom: 0;
   padding-top: 0;
   margin-top: 0;
   margin-bottom: 0;
+  color: black;
+  font-family: sans-serif;
 
 }
 .container-fluid {
@@ -194,11 +192,28 @@ background-attachment: fixed;
   url(https://blog.carousell.com/wp-content/uploads/2017/03/michelle-obama-green-carpet-sustainable-fashion-1.jpg) bottom left;
 }
 
+.imgbox {
+  height: 100%;
+}
+
+.center-fit {
+  max-width: 100vw;
+  max-height: 100vh;
+  margin: auto;
+}
+
 /* about content */
 .aboutbody{
     display: flex;
     justify-content: center;
     padding-bottom: 50px;
+}
+
+img.rounded-circle {
+  display: block;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 130px;
 }
 
 .name {
