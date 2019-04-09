@@ -6,6 +6,15 @@
     font-style: normal;
 }
 
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 ul {
   list-style: none;
   margin: 10px
@@ -186,32 +195,53 @@ background-attachment: fixed;
 }
 
 /* about content */
-.icon {
-  display: inline-block;
-  padding: 0;
+.aboutbody{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.name {
+  font-family: "anaktoriaregular";
+  font-size: 34px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-text {
+    margin: auto;
+    width: 370px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.icon img {
+  padding: 0px;
+  margin-right: 5px;
+  margin-left: 5px;
+  height: 50px;
+  width: 50px;
 }
 
 .about-link {
   display: inline-block;
-  padding: 20px;
+  padding: 10px;
+  padding-bottom: 50px;
+}
+
+.about-link img {
+  padding-top: 0px;
 }
 
 .aboutlink {
   display: flex;
   justify-content: center;
   align-items: baseline;
-}
-
-.card-text {
-    display: flex;
-    justify-content: center;
-    width: 400px;
-}
-
-.name {
-  font-family: "anaktoriaregular";
-  display: flex;
-  justify-content: center;
 }
 
 .listoffacts {
