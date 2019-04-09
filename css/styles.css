@@ -32,14 +32,6 @@ html,body
   font-size: 40px;
 }
 
-.navbar-brand a{
-  color: red;
-}
-
-.navbar-brand:hover a{
-  color: black;
-}
-
 .dropdown-menu {
     position: absolute;
     visibility: hidden;
@@ -120,6 +112,11 @@ div.mailinglist .input-group {
   display: flex;
   justify-content: center;
   align-items: stretch;
+}
+
+/* bathroom content */
+.bathroomcard {
+
 }
 
 /* allproducts content */
