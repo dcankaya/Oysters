@@ -195,3 +195,16 @@ background-attachment: fixed;
 .aboutcard {
   padding: 100px;
 }
+
+.listoffacts {
+position: absolute;
+bottom:160px;
+width: 100%;
+}
+
+.tipsandtricksbody {
+position: absolute;
+  bottom: 400px;
+  width: 80%;
+  text-align: center;
+}
