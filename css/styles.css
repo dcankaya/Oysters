@@ -76,9 +76,7 @@ html,body
 
 /* index content */
 .index {
-  color: rgb(65, 75, 86);
-  font-family: arial;
-  margin: 0px;
+  margin: auto;
   text-align: center;
 }
 
@@ -86,10 +84,6 @@ p.index {
   width: 40%;
   margin: 10vh 10vw;
   font-size: 2em;
-}
-
-a {
-  color: rgb(0,0,0);
 }
 
 div.contrast {
@@ -109,7 +103,7 @@ div.mailinglist {
   justify-content: center;
   bottom: auto;
   position: absolute;
-  bottom: 10px;
+  bottom: 0px;
   width: 100%
 }
 
@@ -134,18 +128,47 @@ text-align: center;
 }
 
 /* calculations content */
-body {
+body{
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+.jumbotron{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 80%;
+}
+
+.title {
+  font-family: "anaktoriaregular";
+  font-size: 100px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0px;
 }
 
 .calc2 {
   width: auto;
   height: auto;
-  padding-top: 60px;
-  padding-bottom: 20px;
-  padding-left: 5%;
+  padding-top: 4%;
+  padding-bottom: 5%;
+  padding-left: 16%;
   padding-right: 16%;
+}
+
+.calclist {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.calclink {
+  color: rgb(65, 75, 86);
+}
+
+.calclink:hover {
+  color: black;
 }
 
 .calculationsquestion {
@@ -153,6 +176,7 @@ body {
   color: black;
   display: flex;
   justify-content: flex-start;
+  padding-bottom: 20px;
 }
 
 .calculationsbody {
@@ -162,10 +186,12 @@ body {
   padding-top: 0;
   margin-top: 0;
   margin-bottom: 0;
-  color: black;
-  font-family: sans-serif;
-
 }
+
+.example {
+  font-family: "anaktoriaregular";
+}
+
 .container-fluid {
   padding-top: 0;
   padding-bottom:0;
