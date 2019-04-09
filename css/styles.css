@@ -187,7 +187,7 @@ background-attachment: fixed;
 }
 
 .about-link {
-  display: inline-block;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
 }
