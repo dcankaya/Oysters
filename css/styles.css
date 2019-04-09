@@ -114,6 +114,14 @@ div.mailinglist .input-group {
 
 }
 
+/* kitchen content */
+.card-deck {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
 /* allproducts content */
 .allproductsbody {
   text-align: center;
