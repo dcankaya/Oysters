@@ -67,7 +67,7 @@ ul {
 
 .btn-search img {
   padding: 0px;
-  width: 24px;
+  width: 24.2px;
 }
 
 body {
@@ -76,18 +76,8 @@ body {
   margin: 0px;
 }
 
-h1, h2, h3, {
+h1, h2, h3, .index {
   text-align: center;
-}
-
-
-h1 {
-  font-size: 5em;
-  text-emphasis: italic;
-}
-
-h2 {
-  font-size: 2.5em;
 }
 
 img {
@@ -97,7 +87,7 @@ img {
   border-radius: 130px;
 }
 
-p {
+p .index {
   width: 40%;
   margin: 10vh 10vw;
   font-size: 2em;
@@ -119,20 +109,20 @@ div.contrast {
 div.mailinglist {
   background-color: #92cccc;
   display: flex;
-  align-items: flex-end;
+  margin-top: auto;
+  align-self: flex-end;
   justify-content: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 div.mailinglist .input-group {
   width: 700px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .allproductsbody {
   text-align: center;
   width: 90%
-
 }
 
 .scrolldown {
@@ -173,17 +163,28 @@ background-attachment: fixed;
 
 .trickscolor {
   font-color: red;
-
 }
 
 .list {
   padding-bottom: 0;
   padding-top: 0;
-
 }
-
 
 .pictures {
   background: url(https://blog.carousell.com/wp-content/uploads/2017/03/emma-watson-green-carpet-sustainable-fashion-1.jpg) top right,
   url(https://blog.carousell.com/wp-content/uploads/2017/03/michelle-obama-green-carpet-sustainable-fashion-1.jpg) bottom left;
+}
+
+.icon {
+  display: inline-block;
+}
+
+.about-link {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutcard {
+  padding: 100px;
 }
