@@ -184,14 +184,21 @@ background-attachment: fixed;
 
 .icon {
   display: inline-block;
+  padding: 0;
 }
 
 .about-link {
-  display: inline-flex;
+  display: inline-block;
   justify-content: center;
-  align-items: center;
 }
 
 .aboutcard {
-  padding: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  font-family: "anaktoriaregular";
+  display: flex;
+  justify-content: center;
 }
